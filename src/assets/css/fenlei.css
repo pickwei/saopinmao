@@ -1,0 +1,126 @@
+.input {
+  width: 100%;
+  height: 0.81rem;
+  line-height: 0.81rem;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-bottom: 2px solid #e7e7e7;
+  background-color: #fff;
+}
+.input a {
+  position: absolute;
+  width: 0.17rem;
+  height: 0.43rem;
+  line-height: 0.43rem;
+  font-size: 0.20rem;
+  left: 2.7rem;
+  top: 0.18rem;
+  color: #a8a8a8;
+}
+.input .in {
+  width: 6.04rem;
+  height: 0.43rem;
+  border-radius: 0.1rem;
+  background-color: #f1f1f1;
+  border: 0;
+  padding-left: 2.81rem;
+  font-size: 0.18rem;
+  box-sizing: border-box;
+}
+.input .in::-webkit-input-placeholder {
+  font-size: 0.18rem;
+  color: #9d9d9d;
+}
+.list {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0.83rem;
+}
+.list .left {
+  width: 1.3rem;
+  height: 100%;
+  float: left;
+  overflow-y: scroll;
+}
+.list .left ul {
+  width: 100%;
+  height: auto;
+}
+.list .left ul li {
+  position: relative;
+  width: 100%;
+  height: 0.83rem;
+  text-align: center;
+  line-height: 0.83rem;
+  color: #000;
+  font-size: 0.21rem;
+  background-color: #f9f9f9;
+}
+.list .left ul .act {
+  color: #ef088c;
+  background-color: #fff;
+}
+.list .left ul .act:after {
+  content: "";
+  width: 0.05rem;
+  height: 100%;
+  background-color: #df007c;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.list .right {
+  width: 79.1%;
+  float: left;
+  text-align: center;
+  display: none;
+}
+.list .rights {
+  display: block;
+}
+.list .right .top {
+  box-sizing: border-box;
+  padding-left: 0.26rem;
+  width: 100%;
+  height: 1.92rem;
+  padding-top: 0.27rem;
+  overflow: hidden;
+  border-radius: 0.06rem;
+  margin-bottom: 0.12rem;
+}
+.list .right .top img {
+  width: 95%;
+}
+.list .right p {
+  line-height: 0.41rem;
+  color: #7c7c7c;
+  font-size: 0.18rem;
+  margin-bottom: 3px;
+}
+.list .right .box {
+  width: 100%;
+  overflow-y: scroll;
+}
+.list .right .box ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0.2rem;
+}
+.list .right .box ul li {
+  width: 33.33%;
+  height: 1.62rem;
+  padding-top: 0.23rem;
+  box-sizing: border-box;
+}
+.list .right .box ul li img {
+  width: 0.6rem;
+}
+.list .right .box ul li p {
+  color: #000;
+  font-size: 0.2rem;
+}

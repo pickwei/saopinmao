@@ -1,0 +1,120 @@
+header {
+  width: 100%;
+  height: 1rem;
+  line-height: 1rem;
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+header img {
+  vertical-align: middle;
+  margin-left: 0.28rem;
+}
+header input {
+  width: 4.81rem;
+  height: 0.43rem;
+  border-radius: 0.1rem;
+  border: none;
+  background-color: #f1f1f1;
+  padding-left: 0.44rem;
+  box-sizing: border-box;
+  margin-left: 0.2rem;
+  padding-top: 0.05rem;
+}
+header input::-webkit-input-placeholder {
+  color: #969696;
+  font-size: 0.18rem;
+}
+header .iconfont {
+  position: absolute;
+  top: -0.03rem;
+  left: 1.60rem;
+  font-size: 0.18rem;
+  color: #a5a5a5;
+}
+.fenlei {
+  height: 0.76rem;
+  overflow-x: auto;
+}
+.fenlei ul {
+  height: 100%;
+  width: 7.4rem;
+  display: flex;
+}
+.fenlei ul li {
+  width: 1.28rem;
+  height: 0.72rem;
+  line-height: 0.72rem;
+  text-align: center;
+  float: left;
+}
+.fenlei ul li a {
+  font-size: 0.22rem;
+  color: #000;
+}
+.fenlei ul .active {
+  border-bottom: 4px solid #ba0461;
+}
+.fenlei ul .active a {
+  color: #d41175;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.gull ul{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #eeeded;
+  margin-bottom: 1rem;
+}
+
+.gull ul li{
+    width: 49%;
+    height: 4.6rem;
+    float: left;
+    background-color: #fff;
+    margin-bottom: 0.1rem;
+}
+.gull ul li img{
+    width: 100%;
+}
+.gull ul li p {
+  color: #000;
+  font-size: 0.22rem;
+  margin-left: 0.1rem;
+  line-height: 0.42rem;
+  margin-top: 0.16rem;
+}
+.gull ul li .t span {
+    color: #e61f91;
+    font-size: 0.27rem;
+    margin-left: 0.1rem;
+}
+.gull ul li s {
+  font-size: 0.2rem;
+  margin-left: 0.1rem;
+}
+.gull ul li .t {
+  width: 100%;
+  height: 0.44rem;
+  line-height: 0.44rem;
+}
+.gull ul li .t b {
+  display: inline-block;
+  width: 0.63rem;
+  height: 0.25rem;
+  border-radius: 0.05rem;
+  border: 2px solid #e15da6;
+  text-align: center;
+  line-height: 0.28rem;
+  font-size: 0.14rem;
+  color: #e15da6;
+  margin-left: 0.15rem;
+}
+.gull ul li .t i {
+  font-size: 0.18rem;
+  font-style: normal;
+}

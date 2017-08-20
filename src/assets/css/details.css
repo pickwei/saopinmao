@@ -1,0 +1,66 @@
+.details {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+.details .de_top {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-bottom: 0.09rem;
+}
+.details .de_top p {
+    height: 100%;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #646464;
+    line-height: 1rem;
+}
+.details .de_top i {
+    position: absolute;
+    left: 0.23rem;
+    top: 0.38rem;
+    font-size: 0.25rem;
+    color: #a7a7a7;
+}
+.details .ul {
+    width: 100%;
+    height: 0.66rem;
+    background-color: #fff;
+    margin-bottom: 0.08rem;
+}
+.details .ul ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.details .ul ul li {
+    width: 25%;
+    height: 100%;
+}
+.details .ul ul li p {
+    font-size: 0.22rem;
+    color: #000;
+    line-height: 0.66rem;
+    float: left;
+    width: 0.85rem;
+    margin: 0 auto;
+    text-align: right;
+}
+.details .ul ul li a {
+    display: inline-block;
+    width: 0.18rem;
+    height: 100%;
+    float: left;
+    padding-top: 0.18rem;
+    box-sizing: border-box;
+    font-size: 0.10rem;
+    color: #c2c2c2;
+    margin-left: 0.08rem;
+}
+.details .ul ul .active p {
+    color: #db007b;
+} 
